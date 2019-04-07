@@ -5,7 +5,7 @@
     * URL FORMAT -/controller/method/params
     */
     class Core {
-        /*This is the default controller.  You can change this to point to your own customer controller by default.*/
+        /*This is the default controller.  You can change this to point to your own customer controller in the config.php file.*/
         protected $currentController = DEFAULT_CONTROLLER;
         protected $currentMethod = 'index';
         protected $params = [];
